@@ -1,0 +1,29 @@
+.owl-booking-container {
+    padding: 10px;
+}
+.owl-booking-time {
+    flex: 1;
+    margin: 10px;
+}
+.owl-booking-time-select-container {
+    display: flex;
+}
+.owl-booking-button-container {
+    text-align: center;
+    display: flex;
+}
+.owl-booking-button-confirm, .owl-booking-button-cancel {
+    flex: 1;
+}
+.owl-booking-attendee-search {
+    display: flex;
+}
+.owl-booking-attendee-input {
+    flex: 2;
+}
+.owl-booking-attendee-button {
+    flex: 1;
+}
+.owl-booking-search-result li {
+    width: 100%;
+}

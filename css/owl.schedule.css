@@ -1,0 +1,6 @@
+.schedule-list-item-container {
+    padding: 5px 10px;
+}
+.schedule-list-item>.card {
+    width: 100%
+}

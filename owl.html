@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8">
+    <title>OWL MRBS</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.confirm.css">
+    <link rel="stylesheet" href="css/owl.common.css">
+    <link rel="stylesheet" href="css/owl.shell.css">
+    <link rel="stylesheet" href="css/owl.lobby.css">
+    <link rel="stylesheet" href="css/owl.login.css">
+    <link rel="stylesheet" href="css/owl.booking.css">
+    <link rel="stylesheet" href="css/owl.schedule.css">
+    <!-- 3rd party script -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/jquery.urianchor/jquery.uriAnchor.js"></script>
+    <!-- our script -->
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/owl.js"></script>
+    <script type="text/javascript" src="js/owl.shell.js"></script>
+    <script type="text/javascript" src="js/owl.login.js"></script>
+    <script type="text/javascript" src="js/owl.header.js"></script>
+    <script type="text/javascript" src="js/owl.lobby.js"></script>
+    <script type="text/javascript" src="js/owl.schedule.js"></script>
+    <script type="text/javascript" src="js/owl.confirm.js"></script>
+    <script type="text/javascript" src="js/owl.booking.js"></script>
+  </head>
+  <body>
+    <div id="owl"></div>
+    <script>
+        $(function () {
+            owl.initModule($('#owl'));
+        }());
+    </script>
+  </body>
+</html>

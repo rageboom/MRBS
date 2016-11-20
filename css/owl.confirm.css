@@ -1,0 +1,36 @@
+
+.owl-confirm-container {
+    padding: 10px;
+    position: relative;
+    height: 100%;
+}
+
+.owl-confirm-time {
+    background-color: #ffffff;
+    text-align: center;
+}
+.owl-confirm-time>span{
+    float  : left;
+}
+.owl-confirm-time>div{
+    color       : #999999;
+    font-size   : 40px;
+    font-weight : 600;
+    clear       : left;
+}
+
+.owl-confirm-people {
+}
+
+.owl-confirm-button-container {
+    position: relative;
+    text-align: center;
+}
+
+.owl-confirm-ok {
+    display: inline-block;
+}
+
+.owl-confirm-cancel {
+    display: inline-block;
+}

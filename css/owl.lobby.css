@@ -1,0 +1,98 @@
+.lobby-container {
+    padding: 10px;
+}
+.lobby-booklist-item-container {
+    position: relative;
+    display: flex;
+    height : 100%;
+}
+.lobby-booklist-item .book-room {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0 0 10px;
+}
+
+.lobby-booklist-item .book-time {
+    color: #bbbbbb;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lobby-booklist-item {
+    flex: 1;
+    margin: 10px;
+    height: 100%;
+}
+
+.lobby-room-item-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+.lobby-room-container {
+    padding-top: 10px;
+}
+.lobby-room-item {
+    margin: 1px;
+    flex: 1;
+}
+.lobby-room-item.good{
+    background-color: rgba(138,220,133,0.6);
+}
+.lobby-room-item.soso{
+    background-color: rgba(121,167,38,0.6);
+}
+.lobby-room-item.bad{
+    background-color: rgba(251,129,129,0.6);
+}
+.enviroment.good, .spec.good{
+    background-color: rgba(138,220,133,1);
+}
+.enviroment.soso, .spec.soso{
+    background-color: rgba(121,167,38,1);
+}
+.enviroment.bad, .spec.bad{
+    background-color: rgba(251,129,129,1);
+}
+.lobby-room-item .name {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0 0 10px;
+    display: inline;
+}
+.lobby-room-item .book-count {
+    float: right;
+    margin: 15px 10px 0 0px;
+    display: inline;
+}
+.enviroment, .spec {
+    background: #8adc85;
+    margin: 5px;
+}
+.enviroment>span {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 3px 0 3px 6px;
+    display: block;
+}
+.enviroment>div{
+    display: inline;
+    padding: 5px;
+}
+
+.spec>span {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 3px 0 3px 6px;
+    display: block;
+}
+.spec>div{
+    padding: 5px;
+}

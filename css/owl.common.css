@@ -1,0 +1,11 @@
+/*각 항목의 제목에 적용한다.*/
+.owl-title {
+    color    : #333333;
+    font-size: 20px;
+}
+
+.owl-hr {
+    background-color: #f3f3f3;
+    height          : 1px;
+    margin          : 10px 5px;
+}
